@@ -5,6 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Monthly Anniversaries</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light gray background */
+        }
+
+        .container {
+            max-width: 600px; /* Limit container width for better readability */
+            margin: 0 auto; /* Center container horizontally */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6b2737; /* Dark red heading */
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .month-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            background-color: #ffcccc; /* Light pink button */
+            color: #6b2737; /* Dark red text */
+            border: 2px solid #6b2737; /* Dark red border */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .month-button:hover {
+            background-color: #ff99aa; /* Lighter pink on hover */
+        }
+
+        #monthContent {
+            background-color: #fff; /* White background for month content */
+            border: 2px solid #ffcccc; /* Light pink border */
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+
+        img {
+            max-width: 100%; /* Ensure images don't exceed container width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Prevent whitespace below images */
+            margin: 0 auto; /* Center images horizontally */
+            margin-bottom: 10px; /* Add some space between images */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
